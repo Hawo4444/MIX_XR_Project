@@ -140,6 +140,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
@@ -222,6 +223,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2248}
     - Class: 114
       Script: {instanceID: 2468}
+    - Class: 114
+      Script: {instanceID: 2646}
     - Class: 114
       Script: {instanceID: 2664}
     - Class: 114
@@ -520,7 +523,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9376}
     - Class: 114
-      Script: {instanceID: 36606}
+      Script: {instanceID: 36006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2794,7 +2797,7 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
-      Hash: a0ed6c84f328a42b32f89505576d7571
+      Hash: 587d29a4d738e0db132072a632afe337
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NetworkPlayer
