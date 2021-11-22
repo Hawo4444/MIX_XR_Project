@@ -424,7 +424,7 @@ MonoBehaviour:
   m_RigBaseGameObject: {fileID: 56397543}
   m_CameraFloorOffsetObject: {fileID: 196464597}
   m_CameraGameObject: {fileID: 1968058182}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.36144
   m_TrackingSpace: 3
   m_TrackingOriginMode: -2147483648
@@ -3899,7 +3899,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32716
+  m_Name: pb_Mesh29784
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4230,13 +4230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d237bb160c8e0944aa8a454529f6fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultRooms:
-  - <Name>k__BackingField: Main Scene
-    <SceneIndex>k__BackingField: 1
-    <MaxPlayers>k__BackingField: 6
-  - <Name>k__BackingField: Main Scene
-    <SceneIndex>k__BackingField: 1
-    <MaxPlayers>k__BackingField: 6
   roomUI: {fileID: 1888398861}
 --- !u!4 &1424751397
 Transform:
@@ -4421,7 +4414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -139}
+  m_AnchoredPosition: {x: 0, y: -139}
   m_SizeDelta: {x: 128.8963, y: 66.6219}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725136593
@@ -4471,7 +4464,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1424751396}
         m_TargetAssemblyTypeName: NetworkManager, Assembly-CSharp
         m_MethodName: InitializeRoom
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4554,7 +4547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 75}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1896670182
@@ -4594,7 +4587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -0.0000042915}
+  m_AnchoredPosition: {x: 0.000011444, y: -66}
   m_SizeDelta: {x: 147.3679, y: 67.8963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1896670184
@@ -5681,22 +5674,6 @@ Transform:
   m_Father: {fileID: 5871556244558572167}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5379590167092719492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7234090842836787192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
 --- !u!4 &5871556244558572167
 Transform:
   m_ObjectHideFlags: 0
@@ -5733,7 +5710,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8936767348549700806}
-  - component: {fileID: 5379590167092719492}
   m_Layer: 0
   m_Name: Right Hand
   m_TagString: Untagged

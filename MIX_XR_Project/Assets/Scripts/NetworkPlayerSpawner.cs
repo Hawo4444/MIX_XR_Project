@@ -1,4 +1,5 @@
 using Photon.Pun;
+using Photon.Voice.Unity;
 using UnityEngine;
 
 public class NetworkPlayerSpawner : MonoBehaviourPunCallbacks
@@ -9,6 +10,10 @@ public class NetworkPlayerSpawner : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
         _spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
+        
+        GameObject.Find("Network Voice")
+            .GetComponent<PushToTalk>()
+            .VoiceRecorder = _spawnedPlayerPrefab.GetComponent<Recorder>();
     }
 
     public override void OnLeftRoom()

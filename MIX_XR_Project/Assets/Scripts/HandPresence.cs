@@ -97,4 +97,9 @@ public class HandPresence : MonoBehaviour
             }
         }
     }
+
+    public GameObject GetSpawnedHandModel()
+    {
+        return spawnedHandModel;
+    }
 }

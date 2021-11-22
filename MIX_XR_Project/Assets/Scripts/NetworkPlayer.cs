@@ -19,18 +19,14 @@ public class NetworkPlayer : MonoBehaviour
     private Transform _leftHandRig;
     private Transform _rightHandRig;
 
-    // Start is called before the first frame update
     void Start()
     {
         _photonView = GetComponent<PhotonView>();
 
         var rig = FindObjectOfType<XRRig>();
         _headRig = rig.transform.Find("Camera Offset/Main Camera");
-        _leftHandRig = rig.transform.Find("Camera Offset/Left Hand");
-        _rightHandRig = rig.transform.Find("Camera Offset/Right Hand");
-
-        if (_headRig == null) { Debug.Log("head is null"); }
-        if (_leftHandRig == null) { Debug.Log("hand is null"); }
+        _leftHandRig = rig.transform.Find("Camera Offset/Left Hand/LeftHand Controller");
+        _rightHandRig = rig.transform.Find("Camera Offset/Right Hand/RightHand Controller");
 
         if (_photonView.IsMine)
         {
@@ -49,7 +45,7 @@ public class NetworkPlayer : MonoBehaviour
             MapPosition(_head, _headRig);
             MapPosition(_leftHand, _leftHandRig);
             MapPosition(_rightHand, _rightHandRig);
-            _body.position = GetBodyPosition();
+            _body.position = _head.position;
 
             UpdateHandAnimation(InputDevices.GetDeviceAtXRNode(XRNode.LeftHand), _leftHandAnimator);
             UpdateHandAnimation(InputDevices.GetDeviceAtXRNode(XRNode.RightHand), _rightHandAnimator);
@@ -81,10 +77,5 @@ public class NetworkPlayer : MonoBehaviour
     {
         target.position = rigTransform.position;
         target.rotation = rigTransform.rotation;
-    }
-
-    private Vector3 GetBodyPosition()
-    {
-        return new Vector3(_headRig.position.x, _headRig.position.y - 0.5f, _headRig.position.z);
     }
 }
