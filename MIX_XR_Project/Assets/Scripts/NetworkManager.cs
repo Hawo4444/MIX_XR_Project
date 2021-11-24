@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Photon.Realtime;
 using UnityEngine;
 using Photon.Pun;

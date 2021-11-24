@@ -1,0 +1,2 @@
+D:\Unity\Unity\Projects\MIX_XR_Project\MIX_XR_Project\obj\Debug\PhotonVoice.PUN.csproj.AssemblyReference.cache
+D:\Unity\Unity\Projects\MIX_XR_Project\MIX_XR_Project\obj\Debug\PhotonVoice.PUN.csproj.CoreCompileInputs.cache

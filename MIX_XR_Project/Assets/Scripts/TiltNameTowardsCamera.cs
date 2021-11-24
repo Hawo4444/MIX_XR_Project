@@ -11,6 +11,6 @@ public class TiltNameTowardsCamera : MonoBehaviour
 
     void Update()
     {
-        transform.LookAt(_mainCamera.position, Vector3.up);
+        transform.LookAt(-_mainCamera.position, Vector3.up);
     }
 }

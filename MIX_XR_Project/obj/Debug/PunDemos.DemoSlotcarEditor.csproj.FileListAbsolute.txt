@@ -1,0 +1,2 @@
+D:\Unity\Unity\Projects\MIX_XR_Project\MIX_XR_Project\obj\Debug\PunDemos.DemoSlotcarEditor.csproj.AssemblyReference.cache
+D:\Unity\Unity\Projects\MIX_XR_Project\MIX_XR_Project\obj\Debug\PunDemos.DemoSlotcarEditor.csproj.CoreCompileInputs.cache

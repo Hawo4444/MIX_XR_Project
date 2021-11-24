@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PushToTalk : MonoBehaviour
 {
     [SerializeField] private InputActionReference _voiceChatActivationReference;
-    [SerializeField] private RawImage _speakerImage;
+    [SerializeField] private Image _speakerImage;
 
     private Recorder _voiceRecorder;
     private PhotonView _photonView;

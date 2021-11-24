@@ -1,0 +1,2 @@
+D:\Unity\Unity\Projects\MIX_XR_Project\MIX_XR_Project\obj\Debug\PhotonUnityNetworking.Editor.csproj.AssemblyReference.cache
+D:\Unity\Unity\Projects\MIX_XR_Project\MIX_XR_Project\obj\Debug\PhotonUnityNetworking.Editor.csproj.CoreCompileInputs.cache

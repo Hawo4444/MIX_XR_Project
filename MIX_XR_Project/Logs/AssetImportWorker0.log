@@ -15,12 +15,12 @@ D:/Unity/Unity/Projects/MIX_XR_Project/MIX_XR_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54637
+65480
 Successfully changed project path to: D:/Unity/Unity/Projects/MIX_XR_Project/MIX_XR_Project
 D:/Unity/Unity/Projects/MIX_XR_Project/MIX_XR_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1026.91 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 62.33 ms.
+Refreshing native plugins compatible for Editor in 1960.98 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 9.50 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path D:/Unity/Unity/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity/Unity/Projects/MIX_XR_Project/MIX_XR_Project/Assets
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Unity/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
