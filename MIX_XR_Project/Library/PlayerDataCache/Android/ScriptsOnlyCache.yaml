@@ -58,6 +58,10 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.XR.TrackedPoseDriver
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.MaterialPalette
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.ColorPalette
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -366,49 +370,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7334}
     - Class: 114
-      Script: {instanceID: 7458}
+      Script: {instanceID: 7456}
     - Class: 114
-      Script: {instanceID: 7484}
+      Script: {instanceID: 7482}
     - Class: 114
-      Script: {instanceID: 7630}
+      Script: {instanceID: 7628}
     - Class: 114
-      Script: {instanceID: 7774}
+      Script: {instanceID: 7772}
     - Class: 114
-      Script: {instanceID: 7798}
+      Script: {instanceID: 7796}
     - Class: 114
-      Script: {instanceID: 7840}
+      Script: {instanceID: 7838}
     - Class: 114
-      Script: {instanceID: 8016}
+      Script: {instanceID: 8014}
     - Class: 114
-      Script: {instanceID: 8556}
+      Script: {instanceID: 8554}
+    - Class: 114
+      Script: {instanceID: 8652}
     - Class: 114
       Script: {instanceID: 8654}
     - Class: 114
-      Script: {instanceID: 8656}
+      Script: {instanceID: 8810}
     - Class: 114
-      Script: {instanceID: 8812}
+      Script: {instanceID: 8960}
     - Class: 114
-      Script: {instanceID: 8962}
+      Script: {instanceID: 8966}
     - Class: 114
-      Script: {instanceID: 8968}
+      Script: {instanceID: 9020}
     - Class: 114
-      Script: {instanceID: 9022}
+      Script: {instanceID: 9104}
     - Class: 114
-      Script: {instanceID: 9106}
+      Script: {instanceID: 9116}
     - Class: 114
-      Script: {instanceID: 9118}
+      Script: {instanceID: 9186}
     - Class: 114
-      Script: {instanceID: 9188}
+      Script: {instanceID: 9194}
     - Class: 114
-      Script: {instanceID: 9196}
+      Script: {instanceID: 9238}
     - Class: 114
-      Script: {instanceID: 9240}
+      Script: {instanceID: 9264}
     - Class: 114
-      Script: {instanceID: 9266}
+      Script: {instanceID: 9320}
     - Class: 114
-      Script: {instanceID: 9322}
-    - Class: 114
-      Script: {instanceID: 9578}
+      Script: {instanceID: 9576}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -527,19 +531,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7244}
     - Class: 114
-      Script: {instanceID: 7798}
+      Script: {instanceID: 7796}
     - Class: 114
-      Script: {instanceID: 8028}
+      Script: {instanceID: 8026}
     - Class: 114
-      Script: {instanceID: 8264}
+      Script: {instanceID: 8262}
     - Class: 114
-      Script: {instanceID: 8654}
+      Script: {instanceID: 8652}
     - Class: 114
-      Script: {instanceID: 8962}
+      Script: {instanceID: 8960}
     - Class: 114
-      Script: {instanceID: 9104}
+      Script: {instanceID: 9102}
     - Class: 114
-      Script: {instanceID: 9394}
+      Script: {instanceID: 9392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -559,6 +563,8 @@ ScriptsOnlyBuild:
     - Class: 199
       Script: {instanceID: 0}
     - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -3063,6 +3069,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: d11f8fce419527a4bb3a93eb7656db7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PhysicsButton
   platform: 13
   scenePathNames:
   - Assets/Scenes/Lobby.unity
