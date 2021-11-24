@@ -5,8 +5,8 @@ using System.Collections.Generic;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private GameObject roomUI;
-    private const string roomName = "Bowling Area";
+    [SerializeField] private GameObject _nameUI;
+    private const string ROOM_NAME = "Bowling Area";
 
     public void ConnectToServer()
     {
@@ -25,7 +25,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         base.OnJoinedLobby();
         Debug.Log("Joined the lobby!");
-        roomUI.SetActive(true);
+        _nameUI.SetActive(true);
     }
 
     public void InitializeRoom()
@@ -34,12 +34,12 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         
         var roomOptions = new RoomOptions()
         {
-            MaxPlayers = 9,
+            MaxPlayers = 6,
             IsVisible = true,
             IsOpen = true
         };
 
-        PhotonNetwork.JoinOrCreateRoom(roomName, roomOptions, TypedLobby.Default);
+        PhotonNetwork.JoinOrCreateRoom(ROOM_NAME, roomOptions, TypedLobby.Default);
     }
 
     public override void OnJoinedRoom()
